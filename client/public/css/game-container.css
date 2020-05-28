@@ -1,0 +1,68 @@
+html {
+  background-color: #262a32;
+}
+
+button {
+  cursor: pointer;
+  background-color: #cfa128;
+  border: none;
+  padding: 10px;
+  border: black 1px solid;
+  box-shadow: 3px 4px 2px;
+}
+
+.close-button {
+  margin: 15px;
+  padding: 5px;
+}
+.game-container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1000px;
+  grid-template-columns: 1fr 900px 1fr;
+  text-align: center;
+  font-family: times;
+  color: black;
+}
+
+.header {
+  margin: auto;
+  position: absolute;
+  width: 100vw;
+  color: #e4ae1f;
+  font-family: 'jurassic_parkregular';
+  font-size: 7rem;
+  padding: 0;
+  top:1%;
+  z-index: -1;
+  letter-spacing: 5px;
+  transform: rotate(+1deg);
+}
+
+.bank {
+  grid-area: 1/3/2/4;
+  font-size: 5rem;
+  color: black;
+  border: solid black 2px;
+  height: 28vh;
+  width: 80%;
+  background-color: #e4ae1f;
+  transform: rotate(+2deg);
+  margin-top: 50%;
+  z-index: -1;
+}
+
+.start-button {
+  background: white;
+  border: none;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  opacity: 1;
+  font-family: 'jurassic_parkregular';
+  font-size: 10rem;
+  z-index: 10;
+  background-color: #e4ae1f;
+  }

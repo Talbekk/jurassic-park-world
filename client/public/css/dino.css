@@ -1,0 +1,16 @@
+.dino {
+  border: dashed black 2px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dino h3 {
+  font-family: 'jurassic_parkregular';
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.feed-dino-button {
+  width: 10%;
+  color: black;
+}
